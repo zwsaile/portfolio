@@ -28,6 +28,7 @@ export default function Projects({projects}: Props) {
                          className='flex flex-col justify-evenly items-center md:flex-row mt-[20vh]'
                         >
                             <Image 
+                                key={project._id}
                                 className='mx-auto xl:h-[260px] xl:w-[500px]'
                                 src={urlFor(project.image).url()} 
                                 alt={'A mobile screenshot of' + project.title} 
