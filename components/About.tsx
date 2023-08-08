@@ -35,7 +35,7 @@ export default function About({pageInfo}: Props) {
             <h4
                 className='text-4xl font-semibold underline'
             >
-                Here's bit of background
+                Here&apos;s bit of background
             </h4>
             <p
                 className='text-md'
