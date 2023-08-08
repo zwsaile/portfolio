@@ -22,6 +22,7 @@ export default function Projects({projects}: Props) {
             >
                 {projects.map((project, i) => (
                     <div
+                        key={i}
                         className='w-screen flex-shrink-0 snap-center flex flex-col items-center justify-center p-20 md:space-y-10'
                     >
                         <div 
