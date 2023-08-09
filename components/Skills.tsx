@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Skill from './Skill'
 import { Skill as SkillType } from '../typings'

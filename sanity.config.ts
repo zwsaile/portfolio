@@ -12,8 +12,8 @@ import {schema} from './sanity/schema'
 
 export default defineConfig({
   basePath: '/studio',
-  projectId: 'pmi7lwu3',
-  dataset: 'production',
+  projectId: projectId,
+  dataset: dataset,
   // Add and edit the content schema in the './sanity/schema' folder
   schema,
   plugins: [

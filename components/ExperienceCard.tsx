@@ -1,3 +1,4 @@
+"use client"
 import { useNextSanityImage } from 'next-sanity-image'
 import Image from 'next/image'
 import React from 'react'

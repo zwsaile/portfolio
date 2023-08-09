@@ -1,10 +1,10 @@
+"use client"
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { PageInfo } from '../typings';
 import { useNextSanityImage } from 'next-sanity-image';
 import { sanityClient, urlFor } from '../sanity/lib/client';
-
 type Props = {
     pageInfo: PageInfo
 }

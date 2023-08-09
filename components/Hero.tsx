@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles';

@@ -4,8 +4,8 @@ import { apiVersion, dataset, projectId, useCdn } from '../env'
 
 export const config = {
   apiVersion,
-  dataset: 'production',
-  projectId: 'pmi7lwu3',
+  dataset,
+  projectId,
   useCdn: false,
 }
 

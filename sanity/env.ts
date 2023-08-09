@@ -1,14 +1,18 @@
+import * as dotenv from 'dotenv'
+
+dotenv.config()
+
 export const apiVersion =
-  process.env.SANITY_STUDIO_API_VERSION || '2023-07-28'
+  process.env.NEXT_PUBLIC_API_VERSION || '2023-07-28'
 
 export const dataset = assertValue(
-  'production',
-  'Missing environment variable: SANITY_STUDIO_API_DATASET'
+  process.env.NEXT_PUBLIC_API_DATASET,
+  'Missing environment variable: NEXT_PUBLIC_API_DATASET'
 )
 
 export const projectId = assertValue(
-  'pmi7lwu3',
-  'Missing environment variable: SANITY_STUDIO_API_PROJECT_ID'
+  process.env.NEXT_PUBLIC_API_PROJECT_ID,
+  'Missing environment variable: NEXT_PUBLIC_API_PROJECT_ID'
 )
 
 export const useCdn = false
