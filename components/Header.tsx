@@ -17,6 +17,9 @@ export default function Header({ socials }: Props) {
 	if (!hydrated) {
 		return null;
 	}
+	function scrollToBottom () {
+		window.location.hash = '#contact'
+	}
 	return (
 		<header className="sticky top-0 flex items-start justify-between max-w-7xl mx-auto p-5 z-50 xl:items-center">
 		<motion.div
@@ -63,6 +66,7 @@ export default function Header({ socials }: Props) {
 				network="email"
 				bgColor="transparent"
 				fgColor="#D8BFD8"
+				onClick={scrollToBottom}
 			/>
 			<p className="uppercase hidden md:inline-flex text-sm text-neutral-400">
 				Email Me
