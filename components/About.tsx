@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { PageInfo } from '../typings';
 import { useNextSanityImage } from 'next-sanity-image';
 import { sanityClient, urlFor } from '../sanity/lib/client';
+import { useRouter } from 'next/router';
 type Props = {
     pageInfo: PageInfo
 }
