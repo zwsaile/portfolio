@@ -46,7 +46,7 @@ export default function Header({ socials }: Props) {
 				/>
 			))}
 		</motion.div>
-		<Link href="#contact">
+		<div>
 			<motion.div
 			initial={{
 				opacity: 0,
@@ -72,7 +72,7 @@ export default function Header({ socials }: Props) {
 				Email Me
 			</p>
 			</motion.div>
-		</Link>
+		</div>
 		</header>
 	);
 }
